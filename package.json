@@ -1,0 +1,41 @@
+{
+  "name": "josi-team",
+  "description": "Everyone wants to have a little fun with a robot every now and then. josi-team is where you manage all of your team-building, social interactions.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jolly Science"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jollyscience/josi-team.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jollyscience/josi-team/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "script/test"
+  },
+  "readme": "### josi-team\n\n[coming soon]\n\n\tnpm install josi-team\n\nEveryone wants to have a little fun with a robot every now and then. josi-play is where you manage all of your team-building, social interactions.\n\n\t- josi-team/\n\t\t- scripts/\n\t\t\t- acheivement.coffee\n\t\t\t- birthday.coffee\n\t\t\t- congratulate.coffee\n\t\t\t- encourage.coffee\n\t\t\t- karma.coffee\n\t\t\t- points.coffee",
+  "readmeFilename": "README.md",
+  "_id": "josi-team@0.0.1",
+  "_from": "josi-team@0.0.1",
+  "dist": {
+    "shasum": "0037a67a062bd6f39a85cdd139d35d3903d2ddd9"
+  },
+  "_resolved": "https://registry.npmjs.org/josi-team/-/josi-team-0.0.1.tgz"
+}
