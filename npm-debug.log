@@ -1,0 +1,171 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/meshachjackson/.nvm/v0.11.1/bin/node',
+1 verbose cli   '/Users/meshachjackson/.nvm/v0.11.1/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.2.18
+3 info using node@v0.11.1
+4 verbose publish [ '.' ]
+5 verbose read json /Users/meshachjackson/cita/josi/node_modules/josi-team/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/meshachjackson/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/tmp.tgz
+14 verbose folder .
+15 info prepublish josi-team@0.0.1
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /Users/meshachjackson/.npm/3a52ce78-.lock
+18 silly lockFile de14caea-39939-0-4881479924079031-tmp-tgz /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/tmp.tgz
+19 verbose lock /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/tmp.tgz /Users/meshachjackson/.npm/de14caea-39939-0-4881479924079031-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile de14caea-39939-0-4881479924079031-tmp-tgz /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/tmp.tgz
+23 silly lockFile de14caea-39939-0-4881479924079031-tmp-tgz /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/tmp.tgz
+24 verbose tar unpack /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/tmp.tgz
+25 silly lockFile 901d5c38-39939-0-4881479924079031-package /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/package
+26 verbose lock /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/package /Users/meshachjackson/.npm/901d5c38-39939-0-4881479924079031-package.lock
+27 silly lockFile de14caea-39939-0-4881479924079031-tmp-tgz /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/tmp.tgz
+28 verbose lock /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/tmp.tgz /Users/meshachjackson/.npm/de14caea-39939-0-4881479924079031-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm extractEntry LICENSE
+33 silly gunzTarPerm extractEntry .travis.yml
+34 silly gunzTarPerm extractEntry index.coffee
+35 silly gunzTarPerm extractEntry script/bootstrap
+36 silly gunzTarPerm extractEntry script/test
+37 silly gunzTarPerm extractEntry src/encourage.coffee
+38 silly gunzTarPerm extractEntry src/achievement_unlocked.coffee
+39 silly gunzTarPerm extractEntry src/availability.coffee
+40 silly gunzTarPerm extractEntry src/birthday.coffee
+41 silly gunzTarPerm extractEntry src/brb.coffee
+42 silly gunzTarPerm extractEntry src/ambush.coffee
+43 silly gunzTarPerm extractEntry src/hello-world.coffee
+44 silly gunzTarPerm extractEntry src/josi-team.coffee
+45 silly gunzTarPerm extractEntry src/karma.coffee
+46 silly gunzTarPerm extractEntry src/points.coffee
+47 silly gunzTarPerm extractEntry src/whos-turn.coffee
+48 silly gunzTarPerm extractEntry test/hello-world_test.coffee
+49 silly gunzTarPerm extractEntry test/josi-team_test.coffee
+50 verbose read json /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/package/package.json
+51 silly lockFile 901d5c38-39939-0-4881479924079031-package /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/package
+52 silly lockFile 901d5c38-39939-0-4881479924079031-package /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/package
+53 silly lockFile de14caea-39939-0-4881479924079031-tmp-tgz /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/tmp.tgz
+54 silly lockFile de14caea-39939-0-4881479924079031-tmp-tgz /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/tmp.tgz
+55 verbose from cache /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/package/package.json
+56 verbose tar pack [ '/Users/meshachjackson/.npm/josi-team/0.0.1/package.tgz',
+56 verbose tar pack   '/var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/package' ]
+57 verbose tarball /Users/meshachjackson/.npm/josi-team/0.0.1/package.tgz
+58 verbose folder /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/package
+59 silly lockFile 901d5c38-39939-0-4881479924079031-package /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/package
+60 verbose lock /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/package /Users/meshachjackson/.npm/901d5c38-39939-0-4881479924079031-package.lock
+61 silly lockFile 64f4eac3--npm-josi-team-0-0-1-package-tgz /Users/meshachjackson/.npm/josi-team/0.0.1/package.tgz
+62 verbose lock /Users/meshachjackson/.npm/josi-team/0.0.1/package.tgz /Users/meshachjackson/.npm/64f4eac3--npm-josi-team-0-0-1-package-tgz.lock
+63 silly lockFile 901d5c38-39939-0-4881479924079031-package /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/package
+64 silly lockFile 901d5c38-39939-0-4881479924079031-package /var/folders/mw/6q6t51td66n007xq7shjy15r0000gn/T/npm-42679/1378536039939-0.4881479924079031/package
+65 silly lockFile 64f4eac3--npm-josi-team-0-0-1-package-tgz /Users/meshachjackson/.npm/josi-team/0.0.1/package.tgz
+66 silly lockFile 64f4eac3--npm-josi-team-0-0-1-package-tgz /Users/meshachjackson/.npm/josi-team/0.0.1/package.tgz
+67 silly lockFile 8d68d6be-kson-npm-josi-team-0-0-1-package /Users/meshachjackson/.npm/josi-team/0.0.1/package
+68 verbose lock /Users/meshachjackson/.npm/josi-team/0.0.1/package /Users/meshachjackson/.npm/8d68d6be-kson-npm-josi-team-0-0-1-package.lock
+69 silly lockFile 8d68d6be-kson-npm-josi-team-0-0-1-package /Users/meshachjackson/.npm/josi-team/0.0.1/package
+70 silly lockFile 8d68d6be-kson-npm-josi-team-0-0-1-package /Users/meshachjackson/.npm/josi-team/0.0.1/package
+71 verbose tar unpack /Users/meshachjackson/.npm/josi-team/0.0.1/package.tgz
+72 silly lockFile 8d68d6be-kson-npm-josi-team-0-0-1-package /Users/meshachjackson/.npm/josi-team/0.0.1/package
+73 verbose lock /Users/meshachjackson/.npm/josi-team/0.0.1/package /Users/meshachjackson/.npm/8d68d6be-kson-npm-josi-team-0-0-1-package.lock
+74 silly lockFile 64f4eac3--npm-josi-team-0-0-1-package-tgz /Users/meshachjackson/.npm/josi-team/0.0.1/package.tgz
+75 verbose lock /Users/meshachjackson/.npm/josi-team/0.0.1/package.tgz /Users/meshachjackson/.npm/64f4eac3--npm-josi-team-0-0-1-package-tgz.lock
+76 silly gunzTarPerm modes [ '755', '644' ]
+77 silly gunzTarPerm extractEntry package.json
+78 silly gunzTarPerm extractEntry README.md
+79 silly gunzTarPerm extractEntry LICENSE
+80 silly gunzTarPerm extractEntry .travis.yml
+81 silly gunzTarPerm extractEntry index.coffee
+82 silly gunzTarPerm extractEntry script/bootstrap
+83 silly gunzTarPerm extractEntry script/test
+84 silly gunzTarPerm extractEntry src/encourage.coffee
+85 silly gunzTarPerm extractEntry src/achievement_unlocked.coffee
+86 silly gunzTarPerm extractEntry src/availability.coffee
+87 silly gunzTarPerm extractEntry src/birthday.coffee
+88 silly gunzTarPerm extractEntry src/brb.coffee
+89 silly gunzTarPerm extractEntry src/ambush.coffee
+90 silly gunzTarPerm extractEntry src/hello-world.coffee
+91 silly gunzTarPerm extractEntry src/josi-team.coffee
+92 silly gunzTarPerm extractEntry src/karma.coffee
+93 silly gunzTarPerm extractEntry src/points.coffee
+94 silly gunzTarPerm extractEntry src/whos-turn.coffee
+95 silly gunzTarPerm extractEntry test/hello-world_test.coffee
+96 silly gunzTarPerm extractEntry test/josi-team_test.coffee
+97 verbose read json /Users/meshachjackson/.npm/josi-team/0.0.1/package/package.json
+98 silly lockFile 8d68d6be-kson-npm-josi-team-0-0-1-package /Users/meshachjackson/.npm/josi-team/0.0.1/package
+99 silly lockFile 8d68d6be-kson-npm-josi-team-0-0-1-package /Users/meshachjackson/.npm/josi-team/0.0.1/package
+100 silly lockFile 64f4eac3--npm-josi-team-0-0-1-package-tgz /Users/meshachjackson/.npm/josi-team/0.0.1/package.tgz
+101 silly lockFile 64f4eac3--npm-josi-team-0-0-1-package-tgz /Users/meshachjackson/.npm/josi-team/0.0.1/package.tgz
+102 silly shasum updated bytes 7657
+103 info shasum 8212069f832b9bce4197ebd2573cde404ec95728
+103 info shasum /Users/meshachjackson/.npm/josi-team/0.0.1/package.tgz
+104 verbose from cache /Users/meshachjackson/.npm/josi-team/0.0.1/package/package.json
+105 verbose chmod /Users/meshachjackson/.npm/josi-team/0.0.1/package.tgz 644
+106 verbose chown /Users/meshachjackson/.npm/josi-team/0.0.1/package.tgz [ 501, 20 ]
+107 silly lockFile 3a52ce78- .
+108 silly publish { name: 'josi-team',
+108 silly publish   description: 'Everyone wants to have a little fun with a robot every now and then. josi-team is where you manage all of your team-building, social interactions.',
+108 silly publish   version: '0.0.1',
+108 silly publish   author: { name: 'Jolly Science' },
+108 silly publish   license: 'MIT',
+108 silly publish   keywords: [ 'hubot', 'hubot-scripts' ],
+108 silly publish   repository:
+108 silly publish    { type: 'git',
+108 silly publish      url: 'git://github.com/jollyscience/josi-team.git' },
+108 silly publish   bugs: { url: 'https://github.com/jollyscience/josi-team/issues' },
+108 silly publish   dependencies: { 'coffee-script': '~1.6' },
+108 silly publish   devDependencies: { mocha: '*', chai: '*', 'sinon-chai': '*', sinon: '*' },
+108 silly publish   main: 'index.coffee',
+108 silly publish   scripts: { test: 'script/test' },
+108 silly publish   readme: '### josi-team\n\n[coming soon]\n\n\tnpm install josi-team\n\nEveryone wants to have a little fun with a robot every now and then. josi-play is where you manage all of your team-building, social interactions.\n\n\t- josi-team/\n\t\t- scripts/\n\t\t\t- acheivement.coffee\n\t\t\t- birthday.coffee\n\t\t\t- congratulate.coffee\n\t\t\t- encourage.coffee\n\t\t\t- karma.coffee\n\t\t\t- points.coffee',
+108 silly publish   readmeFilename: 'README.md',
+108 silly publish   _id: 'josi-team@0.0.1',
+108 silly publish   _from: '.',
+108 silly publish   dist: { shasum: '8212069f832b9bce4197ebd2573cde404ec95728' },
+108 silly publish   _resolved: 'https://registry.npmjs.org/josi-team/-/josi-team-0.0.1.tgz' }
+109 verbose url raw josi-team
+110 verbose url resolving [ 'https://registry.npmjs.org/', './josi-team' ]
+111 verbose url resolved https://registry.npmjs.org/josi-team
+112 info trying registry request attempt 1 at 23:40:50
+113 http PUT https://registry.npmjs.org/josi-team
+114 http 409 https://registry.npmjs.org/josi-team
+115 verbose url raw josi-team
+116 verbose url resolving [ 'https://registry.npmjs.org/', './josi-team' ]
+117 verbose url resolved https://registry.npmjs.org/josi-team
+118 info trying registry request attempt 1 at 23:40:50
+119 http GET https://registry.npmjs.org/josi-team
+120 http 200 https://registry.npmjs.org/josi-team
+121 error publish fail Cannot publish over existing version.
+121 error publish fail Update the 'version' field in package.json and try again.
+121 error publish fail
+121 error publish fail If the previous version was published in error, see:
+121 error publish fail     npm help unpublish
+121 error publish fail
+121 error publish fail To automatically increment version numbers, see:
+121 error publish fail     npm help version
+122 error System Darwin 12.4.0
+123 error command "/Users/meshachjackson/.nvm/v0.11.1/bin/node" "/Users/meshachjackson/.nvm/v0.11.1/bin/npm" "publish"
+124 error cwd /Users/meshachjackson/cita/josi/node_modules/josi-team
+125 error node -v v0.11.1
+126 error npm -v 1.2.18
+127 error code EPUBLISHCONFLICT
+128 verbose exit [ 1, true ]
